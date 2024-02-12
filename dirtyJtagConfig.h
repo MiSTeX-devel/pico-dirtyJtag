@@ -28,12 +28,12 @@
 
 #if ( BOARD_TYPE == BOARD_PICO )
 
-#define PIN_TDI 16 
-#define PIN_TDO 17
-#define PIN_TCK 18
-#define PIN_TMS 19
-#define PIN_RST 20
-#define PIN_TRST 21
+#define PIN_TDI 12 
+#define PIN_TDO 11
+#define PIN_TCK 10
+#define PIN_TMS 13
+#define PIN_RST 16
+#define PIN_TRST 14
 
 #define LED_INVERTED   0
 #define PIN_LED_TX     25
