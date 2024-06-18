@@ -38,9 +38,9 @@
 #define PIN_TRST 14
 
 #define LED_INVERTED   0
-#define PIN_LED_TX     25
-#define PIN_LED_ERROR  25
-#define PIN_LED_RX     25
+#define PIN_LED_TX     15
+#define PIN_LED_ERROR  15
+#define PIN_LED_RX     15
 
 #if ( USB_CDC_UART_BRIDGE )
 #define PIN_UART_INTF_COUNT 2
